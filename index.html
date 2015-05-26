@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html ng-app="tormahiri">
+<head>
+<meta charset="utf-8"></meta>
+	<title>tormahiri</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+ 
+<script src="js/angular.js"></script>
+	<script src="js/app.js"></script>
+</head>
+<body  ng-controller="myapp" ng-init="getItems()">
+<header>
+<div class="header">
+	<img  class="bashrasim"src="http://files.parsetfss.com/e1d6c0b6-befe-4767-b42f-b98b9e545b33/tfss-537c9c7c-16a1-4898-b133-2ec1d498b384-photo.jpg"></img>
+
+
+</div>
+
+
+</header>
+
+<div class="main">
+<article>
+	
+<h2>ئوچۇق مەنبەلىك تۈرلەر</h2>
+<span class="mukaddima">
+بۇ تۈرلەرنىڭ ھەممىسى ئوچۇق مەنبەلىك بولۇپ،ئۆزىڭىز ئىچىۋاتقان بىرەر تۈرگە ماس كەلگەننى تاللاپ تۈرىڭىز بىلەن بىرلەشتۈرۈپ قوللانسىڭىز تىز سۈرئەتتە تۈرىڭىزنى تاماملىشىڭىزغا ۋاقىت ۋە سۈرئەت جەھەتتىن پايدىسى بار
+
+</span>
+
+
+</article>
+
+	<div class="gird rasim" ng-repeat="item in items"  >
+       
+		<a href={{item.url}} target="_blank"><img class ="tur-avatar"src="{{item.img.url}}"></img></a>
+		 <h2 class="title">{{item.title}}</h2>
+		<p>{{item.mezmun}}
+
+		</p>
+	</div>
+	
+</div>
+</body>
+</html>

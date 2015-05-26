@@ -1,0 +1,79 @@
+
+@font-face{
+font-family:'UKIJ Tuz Tom';
+src:url('font/UKIJTuT.eot');src:url('font/UKIJTuT.eot?#iefix') 
+format('embedded-opentype'),
+url('font/UKIJTuT.woff') format('woff'),
+url('font/UKIJTuT.ttf') format('truetype'),
+url('font/UKIJTuT.svg#UKIJTuzTomRegular') format('svg')
+}
+*{
+
+     font-family:ukij tuz tom;
+     direction: rtl;
+	margin: 0;
+	padding: 0;
+
+}
+body{
+direction: rtl;
+}
+.header{
+    
+	background-image: url("../img/bg.png");
+
+	background-size: cover;
+	height: 300px;
+	
+}
+.header .bashrasim{
+     border-radius: 50%;
+	margin-right: 50%;
+	width: 180px;
+	position: relative;
+	top:50%;
+}
+.main{
+       
+	margin: 0 auto;
+	width: 80%;
+	margin-top:50px;
+	display: flex;
+  -webkit-flex-flow: row wrap;
+  margin-left: 30px;
+
+
+
+}
+.gird{
+
+ flex-direction: row;
+     margin-right: 11px;
+     margin-top: 30px;
+
+}
+.main.rasim{
+	width: 200px;
+
+}
+p{
+	text-align: justify;
+	max-width: 350px;
+	color: gray;
+}
+.mukaddima{
+	display: block;
+     color:gray;
+	margin-top:30px;
+	max-width: 1100px;
+	text-align: justify;
+}
+.gird h2{
+	font-size:18px;
+margin-bottom:10px;
+
+}
+.tur-avatar{
+	width: 365px;
+	height: 190px;
+}
